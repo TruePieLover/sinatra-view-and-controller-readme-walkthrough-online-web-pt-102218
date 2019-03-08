@@ -19,8 +19,3 @@ class App < Sinatra::Base
   erb :friends
   end
 
-<% @friends.each do |friend| %>
-  <h2><%= friend %></h2>
-<% end %>
-end
-end
