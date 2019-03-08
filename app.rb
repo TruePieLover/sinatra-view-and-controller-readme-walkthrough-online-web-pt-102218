@@ -23,3 +23,4 @@ class App < Sinatra::Base
   <h2><%= friend %></h2>
 <% end %>
 end
+end
